@@ -2,18 +2,32 @@ h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin: 30px;
-  padding: 38px;
-  font-size: 40px;
+  padding: 70px;
+}
+.name {
+  font-size: 55px;
+  font-style: italic;
+}
+.info {
+  border: 3px solid #e1a6e1;
+  border-radius: 8px;
+  background-color: #c089f8;
 }
 p {
   text-align: center;
   font-family: "Nanum Myeongjo", serif;
+  padding: 30px;
+  font-size: 28px;
 }
 h2 {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Unna", serif;
 }
-h3 {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
+.front {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.place {
+  font-size: 30px;
 }
