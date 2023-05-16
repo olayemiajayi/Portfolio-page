@@ -9,19 +9,18 @@ h1 {
   font-style: italic;
 }
 .info {
-  border: 3px solid #e1a6e1;
-  border-radius: 8px;
-  background-color: #c089f8;
+  background-color: #d2fafb;
 }
 p {
   text-align: center;
   font-family: "Nanum Myeongjo", serif;
   padding: 30px;
-  font-size: 28px;
+  font-size: 22px;
 }
 h2 {
   text-align: center;
   font-family: "Unna", serif;
+  padding: 30px;
 }
 .front {
   font-size: 40px;
@@ -34,4 +33,41 @@ h2 {
 .image {
   display: block;
   text-align: center;
+}
+hr {
+  max-width: 80%;
+  height: 1px;
+}
+.horizontal {
+  color: #137083;
+  margin-left: 100px;
+}
+.hub {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.contact-info {
+  text-decoration: none;
+  color: #0cca98;
+  font-size: 20px;
+  font-family: "Nanum Myeongjo", serif;
+}
+.home {
+  text-decoration: none;
+  font-family: "Nanum Myeongjo", serif;
+  color: #0cca98;
+  font-size: 20px;
+}
+.weather {
+  text-decoration: none;
+}
+.git {
+  text-decoration: none;
+  font-family: "Nanum Myeongjo", serif;
+  color: #0cca98;
+  font-size: 20px;
+}
+.retail {
+  text-decoration: none;
 }
