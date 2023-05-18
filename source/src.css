@@ -28,7 +28,7 @@ p {
 h2 {
   text-align: center;
   font-family: "Unna", serif;
-  padding: 30px;
+  padding: 20px;
 }
 h3 {
   font-size: 20px;
@@ -51,8 +51,29 @@ h3 {
 }
 .image {
   display: block;
-  text-align: center;
+  max-width: 60%;
 }
+.mail {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  font-style: italic;
+}
+.mail a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 25px;
+  padding: 8px;
+  font-family: "Nanum Myeongjo", serif;
+  border: 1px solid var(--deep-color);
+  border-radius: 30px;
+}
+.mail a:hover {
+  color: #ffff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
 hr {
   max-width: 80%;
   height: 1px;
