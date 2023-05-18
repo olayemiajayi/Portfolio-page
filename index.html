@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Unna&display=swap"
       rel="stylesheet"
     />
@@ -35,9 +41,13 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/822db99434.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Yetunde Ajayi</a>
         <button
@@ -54,18 +64,26 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html#work"
                 >My Work</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Github</a>
+              <a
+                class="nav-link"
+                href="https://github.com/olayemiajayi"
+                target="_blank"
+                >Github</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="About.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="Info.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -80,7 +98,7 @@
     <br />
 
     <hr class="horizontal" />
-    <p>My Work</p>
+    <p id="work" class="my-work">My Work</p>
 
     <div class="container">
       <div class="row">
@@ -90,13 +108,18 @@
             alt="react-app"
             class="img-fluid w-60"
           />
-          <p>React.js Weather App</p>
-          <a
-            href="https://subtle-cannoli-25cf57.netlify.app/"
-            target="_blank"
-            class="weather"
-            >Check it Out</a
-          >
+          <h3>React.js Weather App</h3>
+          <p class="react-app">
+            The React weather app was built to check the weather condition of
+            any country, cities in the world. This would show the current
+            weather update and five days weather forecast of any country, the
+            location, and the time.
+          </p>
+          <span class="react">
+            <a href="https://subtle-cannoli-25cf57.netlify.app/" target="_blank"
+              >Check it Out</a
+            >
+          </span>
         </div>
         <div class="col-6 d-none d-lg-block">
           <img
@@ -104,13 +127,22 @@
             alt="retail-store"
             class="img-fluid w-60"
           />
-          <p>Responvive Retail store Website</p>
-          <a
-            href="https://incredible-llama-2c88d4.netlify.app/"
-            target="_blank"
-            class="retail"
-            >Check it Out</a
-          >
+          <h3>Responsive Online retail store Website</h3>
+          <p class="reponsive-app">
+            A responsive online retail store webpage was built to allow
+            customers to be able to view and select any clothing designs of
+            their choice. It was built to allow navigation to the site more easy
+            for customers to place their orders and to know more about what the
+            company offers. This can be viewed on btoh desktops, tablets or
+            mobile devices.
+          </p>
+          <span class="responsive">
+            <a
+              href="https://incredible-llama-2c88d4.netlify.app/"
+              target="_blank"
+              >Check it Out</a
+            >
+          </span>
         </div>
       </div>
     </div>
@@ -118,17 +150,19 @@
       <a href="https://github.com/olayemiajayi" target="_blank" class="git"
         >Github</a
       >
-      <a href="contact.html#contact" class="contact-info"
-        >Contact me for any information</a
-      >
+      <a href="contact.html#contact" class="contact-info">Contact me</a>
       <a href="index.html" class="home">Home page</a>
     </div>
     <footer>
       <p>
-        <a href="https://github.com/olayemiajayi/Portfolio-page" target="_blank"
-          >Open source</a
-        >
-        By Yetunde Ajayi
+        <span class="github">
+          <a
+            href="https://github.com/olayemiajayi/Portfolio-page"
+            target="_blank"
+            >Open source</a
+          >
+          By Yetunde Ajayi
+        </span>
       </p>
     </footer>
   </body>
