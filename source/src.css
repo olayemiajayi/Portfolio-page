@@ -2,16 +2,18 @@
   --primary-color: #0cca98;
   --secondary-color: #137083;
   --accent-color: #53a8b6;
-  --deep-color: #b4f1f1;
+  --deep-color: #ddbc89;
   --back-color: #bad8b6;
 }
 
 h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
+  font-size: 40px;
   margin: 30px;
   padding: 70px;
 }
+
 .nav-link a {
   position: relative;
   right: 40px;
@@ -119,6 +121,9 @@ hr {
   color: var(--primary-color);
   font-size: 20px;
 }
+.About {
+  font-size: 50px;
+}
 
 .git {
   text-decoration: none;
@@ -182,7 +187,7 @@ hr {
   font-family: "Allura", cursive;
 }
 .my-work {
-  font-size: 35px;
+  font-size: 48px;
 }
 .mail-me a {
   text-decoration: none;
@@ -196,19 +201,19 @@ hr {
   font-size: 50px;
 }
 .fa-linkedin {
-  font-size: 40px;
+  font-size: 80px;
   padding: 12px;
   position: relative;
   left: 1px;
 }
 
 .fa-solid {
-  font-size: 40px;
+  font-size: 80px;
 }
 @media (max-width: 900px) {
   .development {
     padding: 0;
     position: relative;
-    left: 150px;
+    left: 125px;
   }
 }
