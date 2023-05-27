@@ -2,14 +2,15 @@
   --primary-color: #0cca98;
   --secondary-color: #137083;
   --accent-color: #53a8b6;
-  --deep-color: #ddbc89;
+  --deep-color: #fddf97;
   --back-color: #bad8b6;
+  --orange-color: #a55233;
 }
 
 h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 60px;
   margin: 30px;
   padding: 70px;
 }
@@ -35,6 +36,8 @@ h2 {
   text-align: center;
   font-family: "Unna", serif;
   padding: 10px;
+  position: relative;
+  bottom: 40px;
 }
 h3 {
   font-size: 20px;
@@ -61,7 +64,12 @@ h3 {
 .image {
   display: block;
   max-width: 60%;
+  transition: all 150ms ease-in-out;
 }
+.image:hover {
+  transform: scale(1.5) rotate(720deg);
+}
+
 .mail {
   display: flex;
   justify-content: space-evenly;
@@ -70,7 +78,8 @@ h3 {
 }
 .mail a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #ffff;
+  background-color: var(--deep-color);
   font-size: 25px;
   padding: 8px;
   font-family: "Nanum Myeongjo", serif;
@@ -114,15 +123,29 @@ hr {
   color: var(--primary-color);
   font-size: 20px;
   font-family: "Nanum Myeongjo", serif;
+  transition: all 150ms ease-in-out;
+}
+.contact-info:hover {
+  transform: scale(1.5);
 }
 .home {
   text-decoration: none;
   font-family: "Nanum Myeongjo", serif;
   color: var(--primary-color);
   font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+.home:hover {
+  transform: scale(1.5);
 }
 .About {
-  font-size: 50px;
+  font-size: 60px;
+  background-color: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 20px;
+  margin-left: 100px;
 }
 
 .git {
@@ -130,8 +153,11 @@ hr {
   font-family: "Nanum Myeongjo", serif;
   color: var(--primary-color);
   font-size: 20px;
+  transition: all 150ms ease-in-out;
 }
-
+.git:hover {
+  transform: scale(1.5);
+}
 .github {
   font-size: 10px;
 }
@@ -159,8 +185,8 @@ hr {
   padding: 8px;
   position: relative;
   bottom: 40px;
-  color: var(--primary-color);
-  border: 2px solid var(--accent-color);
+  color: #f7f7f7;
+  border: 1px solid var(--back-color);
   border-radius: 8px;
 }
 .react a:hover {
@@ -175,19 +201,21 @@ hr {
   position: relative;
   bottom: 38px;
   padding: 8px;
-  color: var(--primary-color);
-  border: 2px solid var(--accent-color);
+  color: #f7f7f7;
+  border: 1px solid var(--back-color);
   border-radius: 8px;
 }
 .responsive a:hover {
   cursor: pointer;
   background-color: var(--secondary-color);
 }
-.navbar-brand {
-  font-family: "Allura", cursive;
-}
+
 .my-work {
   font-size: 48px;
+  transition: all 150ms ease-in-out;
+}
+.my-work:hover {
+  transform: scale(2) rotate(720deg);
 }
 .mail-me a {
   text-decoration: none;
@@ -209,6 +237,126 @@ hr {
 
 .fa-solid {
   font-size: 80px;
+}
+.navbar-brand {
+  font-family: "Allura", cursive;
+  font-style: italic;
+}
+.navbar-brand a {
+  text-decoration: none;
+}
+.skills {
+  position: relative;
+  left: 500px;
+  font-size: 35px;
+  padding: 20px;
+}
+.icons-source img {
+  max-width: 15%;
+  margin-left: 80px;
+}
+.icons-source {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.git-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.git-icon:hover {
+  transform: scale(1.5);
+}
+.html-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.html-icon:hover {
+  transform: scale(1.5);
+}
+.java-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.java-icon:hover {
+  transform: scale(1.5);
+}
+.bootstrap-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.bootstrap-icon:hover {
+  transform: scale(1.5);
+}
+.react-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.react-icon:hover {
+  transform: scale(1.5);
+}
+.responsive-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.responsive-icon:hover {
+  transform: scale(1.5);
+}
+.css-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.css-icon:hover {
+  transform: scale(1.5);
+}
+.api-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.api-icon:hover {
+  transform: scale(1.5);
+}
+.vs-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.vs-icon:hover {
+  transform: scale(1.5);
+}
+.seo-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.seo-icon:hover {
+  transform: scale(1.5);
+}
+.netlify-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.netlify-icon:hover {
+  transform: scale(1.5);
+}
+.flexbox-icon {
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+.flexbox-icon:hover {
+  transform: scale(1.5);
 }
 @media (max-width: 900px) {
   .development {
