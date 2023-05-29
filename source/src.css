@@ -22,9 +22,17 @@ h1 {
 .name {
   font-size: 55px;
   font-style: italic;
+  color: #ffff;
 }
 .info {
   background-color: var(--deep-color);
+  background-image: url("https://www.elite-corner.com/wp-content/uploads/2022/06/Squiggly-Pattern.gif");
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+}
+.info:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 p {
   text-align: center;
@@ -56,6 +64,7 @@ h3 {
 .front {
   font-size: 40px;
   font-weight: normal;
+  color: #ffff;
 }
 
 .place {
@@ -108,11 +117,11 @@ hr {
 .github-page {
   font-size: 20px;
   font-style: italic;
-  color: var(--primary-color);
+  color: #ffff;
 }
 .github-page a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: #ffff;
 }
 .github-page a:hover {
   color: var(--primary-color);
@@ -127,6 +136,7 @@ hr {
 }
 .contact-info:hover {
   transform: scale(1.5);
+  color: var(--deep-color);
 }
 .home {
   text-decoration: none;
@@ -137,6 +147,7 @@ hr {
 }
 .home:hover {
   transform: scale(1.5);
+  color: var(--deep-color);
 }
 .About {
   font-size: 60px;
@@ -157,6 +168,7 @@ hr {
 }
 .git:hover {
   transform: scale(1.5);
+  color: var(--deep-color);
 }
 .github {
   font-size: 10px;
@@ -185,13 +197,25 @@ hr {
   padding: 8px;
   position: relative;
   bottom: 40px;
-  color: #f7f7f7;
-  border: 1px solid var(--back-color);
+  color: #1a2639;
+  border: 1px solid var(--secondary-color);
   border-radius: 8px;
+  animation: blicking 1s linear infinite;
+}
+@keyframes blicking {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .react a:hover {
   cursor: pointer;
-  background-color: var(--secondary-color);
+  background-color: var(--orange-color);
 }
 .responsive a {
   text-decoration: none;
@@ -201,22 +225,32 @@ hr {
   position: relative;
   bottom: 38px;
   padding: 8px;
-  color: #f7f7f7;
+  color: #1a2639;
   border: 1px solid var(--back-color);
   border-radius: 8px;
+  animation: blinking 1s linear infinite;
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .responsive a:hover {
   cursor: pointer;
-  background-color: var(--secondary-color);
+  background-color: var(--orange-color);
 }
 
 .my-work {
-  font-size: 48px;
-  transition: all 150ms ease-in-out;
+  font-size: 40px;
+  opacity: 0.5;
 }
-.my-work:hover {
-  transform: scale(2) rotate(720deg);
-}
+
 .mail-me a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -262,7 +296,7 @@ hr {
 }
 
 .git-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -271,7 +305,7 @@ hr {
   transform: scale(1.5);
 }
 .html-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -279,7 +313,7 @@ hr {
   transform: scale(1.5);
 }
 .java-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -287,7 +321,7 @@ hr {
   transform: scale(1.5);
 }
 .bootstrap-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -295,7 +329,7 @@ hr {
   transform: scale(1.5);
 }
 .react-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -303,7 +337,7 @@ hr {
   transform: scale(1.5);
 }
 .responsive-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -311,7 +345,7 @@ hr {
   transform: scale(1.5);
 }
 .css-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -319,7 +353,7 @@ hr {
   transform: scale(1.5);
 }
 .api-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -327,7 +361,7 @@ hr {
   transform: scale(1.5);
 }
 .vs-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -335,7 +369,7 @@ hr {
   transform: scale(1.5);
 }
 .seo-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -343,7 +377,7 @@ hr {
   transform: scale(1.5);
 }
 .netlify-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -351,7 +385,7 @@ hr {
   transform: scale(1.5);
 }
 .flexbox-icon {
-  border: 1px solid var(--orange-color);
+  border: 1px solid #2c786c;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
 }
@@ -362,6 +396,11 @@ hr {
   .development {
     padding: 0;
     position: relative;
-    left: 125px;
+    left: 210px;
+  }
+  .skills {
+    padding: 0;
+    position: relative;
+    left: 300px;
   }
 }
