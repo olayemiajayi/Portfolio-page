@@ -9,6 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
       rel="stylesheet"
     />
@@ -47,11 +59,12 @@
     ></script>
     <style>
       body {
-        background: linear-gradient(
-          87.4deg,
-          rgb(255, 241, 165) 1.9%,
-          rgb(200, 125, 76) 49.7%,
-          rgb(83, 54, 54) 100.5%
+        background: radial-gradient(
+          circle at 7.5% 24%,
+          rgb(237, 161, 193) 0%,
+          rgb(250, 178, 172) 25.5%,
+          rgb(190, 228, 210) 62.3%,
+          rgb(215, 248, 247) 93.8%
         );
       }
     </style>
@@ -59,7 +72,9 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Yetunde Ajayi</a>
+        <a class="navbar-brand" href="index.html" title="yetunde Homepage">
+          <span class="navbar-name">Yetunde Ajayi</span>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -101,20 +116,14 @@
     </nav>
     <div class="info">
       <h1 class="name">Yetunde Ajayi</h1>
-      <h2 class="front">
-        Front-End Developer | Based in Edmonton Alberta, Canada 🇨🇦
-      </h2>
+      <h2 class="front">Front-End Developer | Web Designer</h2>
     </div>
-    <br />
-
-    <hr class="horizontal" />
-    <p id="work" class="my-work">My Work</p>
-
+    <p id="work" class="col-6 d-none d-lg-block my-work">My Project</p>
     <div class="container">
       <div class="row">
         <div class="col-6 d-none d-lg-block">
           <img
-            src="Images/React-weather app.png"
+            src="Images/React.png"
             alt="react-app"
             class="img-fluid w-60 rounded"
           />
@@ -155,6 +164,41 @@
           </span>
         </div>
       </div>
+    </div>
+    <p class="services">My Services</p>
+    <div class="my-services">
+      <img
+        src="https://lh4.googleusercontent.com/6AGgbppQ_9s2UrxsEDU0DnHjXwgQiF4mlHjFDsD1stE6excE_6R4nqZSC9yDsPYFrG5NRZ0DgvbuVpuBzhI5dZ-A4smJrnoOJKNBvALhYu_nwmyc-MmRaApbvBa0_Q"
+        alt="web development"
+        class="web-development"
+      />
+      <span class="web">
+        <p>Web Development</p>
+      </span>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDhROxLNtzduEakMb857_Zj_2cw3GJkel43qgSeQoPvymXmKl4LqnLM6a4pVb9p0hy_v8&usqp=CAU"
+        alt="web design/building"
+        class="web-design"
+      />
+      <span class="application">
+        <p>Web Building</p>
+      </span>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeMCMzFLAXzaYNOAzBFdYJafh2plyzT2yiYDiE2FjNTRbc_kRfSVgEN6R7cRoLl6wCy0&usqp=CAU"
+        alt="App building"
+        class="App-building"
+      />
+      <span class="App-build">
+        <p>App Building</p>
+      </span>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi-PapHA1EWJXFwKm3BikONBr0IxeNHZQbMguKZJUcqFCY-EEQrnlE640Ek4YpxtBvU90&usqp=CAU"
+        alt="teamwork"
+        class="teamwork"
+      />
+      <span class="team">
+        <p>Team collaboration</p>
+      </span>
     </div>
     <div class="hub">
       <a href="https://github.com/olayemiajayi" target="_blank" class="git"

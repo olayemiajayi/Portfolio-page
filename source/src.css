@@ -9,8 +9,7 @@
 
 h1 {
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  font-family: "Alex Brush", cursive;
   margin: 30px;
   padding: 70px;
 }
@@ -20,20 +19,15 @@ h1 {
   right: 40px;
 }
 .name {
-  font-size: 55px;
+  font-size: 14vw;
   font-style: italic;
   color: #ffff;
 }
 .info {
   background-color: var(--deep-color);
   background-image: url("https://www.elite-corner.com/wp-content/uploads/2022/06/Squiggly-Pattern.gif");
-  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, transform 2s;
 }
-.info:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
+
 p {
   text-align: center;
   font-family: "Nanum Myeongjo", serif;
@@ -42,7 +36,7 @@ p {
 }
 h2 {
   text-align: center;
-  font-family: "Unna", serif;
+  font-family: "Nanum Myeongjo", serif;
   padding: 10px;
   position: relative;
   bottom: 40px;
@@ -51,6 +45,7 @@ h3 {
   font-size: 20px;
   opacity: 0.5;
   margin-left: 40px;
+  padding: 10px;
   font-weight: normal;
   font-family: "Unna", serif;
 }
@@ -151,7 +146,8 @@ hr {
 }
 .About {
   font-size: 60px;
-  background-color: #ffff;
+  background-color: #1a2639;
+  color: #ffff;
   border: 1px solid #ffff;
   border-radius: 10px;
   max-width: 80%;
@@ -200,7 +196,7 @@ hr {
   color: #1a2639;
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
-  animation: blicking 1s linear infinite;
+  animation: blicking 3s linear infinite;
 }
 @keyframes blicking {
   0% {
@@ -226,9 +222,9 @@ hr {
   bottom: 38px;
   padding: 8px;
   color: #1a2639;
-  border: 1px solid var(--back-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 8px;
-  animation: blinking 1s linear infinite;
+  animation: blinking 3s linear infinite;
 }
 @keyframes blinking {
   0% {
@@ -272,12 +268,17 @@ hr {
 .fa-solid {
   font-size: 80px;
 }
-.navbar-brand {
-  font-family: "Allura", cursive;
+.navbar-name {
+  font-family: "Birthstone", cursive;
   font-style: italic;
+  font-size: 35px;
 }
 .navbar-brand a {
   text-decoration: none;
+}
+.page-note {
+  font-size: 28px;
+  color: #ffff;
 }
 .skills {
   position: relative;
@@ -392,11 +393,71 @@ hr {
 .flexbox-icon:hover {
   transform: scale(1.5);
 }
+.my-services img {
+  max-width: 40%;
+  margin-left: 30px;
+  animation: bounce-in 10s ease infinite;
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.services {
+  opacity: 0.5;
+  font-size: 30px;
+}
+.web {
+  position: relative;
+  right: 180px;
+}
+.application {
+  position: relative;
+  right: 180px;
+}
+.App-build {
+  position: relative;
+  right: 180px;
+}
+.team {
+  position: relative;
+  right: 180px;
+}
+.my-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.web-development {
+  border-radius: 100%;
+}
+.web-design {
+  border-radius: 100%;
+}
+.App-building {
+  border-radius: 100%;
+}
+.teamwork {
+  border-radius: 100%;
+}
+
 @media (max-width: 900px) {
   .development {
     padding: 0;
     position: relative;
-    left: 210px;
+    right: -120px;
   }
   .skills {
     padding: 0;
