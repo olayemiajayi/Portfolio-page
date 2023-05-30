@@ -83,7 +83,7 @@ h3 {
 .mail a {
   text-decoration: none;
   color: #ffff;
-  background-color: var(--deep-color);
+  background-color: #1a2639;
   font-size: 25px;
   padding: 8px;
   font-family: "Nanum Myeongjo", serif;
@@ -289,7 +289,7 @@ hr {
   padding: 20px;
 }
 .icons-source img {
-  max-width: 15%;
+  max-width: 18%;
   margin-left: 80px;
 }
 .icons-source {
@@ -459,11 +459,36 @@ hr {
   .development {
     padding: 0;
     position: relative;
-    right: -120px;
+    right: -140px;
+    font-size: 18px;
+    text-align: center;
   }
   .skills {
     padding: 0;
     position: relative;
-    left: 300px;
+    left: 100px;
+  }
+  .icons-source img {
+    max-width: 40%;
+    margin-left: 20px;
+  }
+  .my-services img {
+    max-width: 150%;
+  }
+  .web {
+    position: relative;
+    right: 50px;
+  }
+  .application {
+    position: relative;
+    right: 50px;
+  }
+  .App-build {
+    position: relative;
+    right: 50px;
+  }
+  .team {
+    position: relative;
+    right: 50px;
   }
 }
