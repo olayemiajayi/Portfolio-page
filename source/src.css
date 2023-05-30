@@ -245,6 +245,8 @@ hr {
 .my-work {
   font-size: 40px;
   opacity: 0.5;
+  position: relative;
+  left: 340px;
 }
 
 .mail-me a {
