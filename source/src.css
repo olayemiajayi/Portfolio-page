@@ -289,6 +289,7 @@ hr {
   font-style: italic;
   font-family: "Allura", cursive;
   font-size: 50px;
+  color: #ffff;
 }
 .fa-linkedin {
   font-size: 80px;
@@ -325,7 +326,7 @@ hr {
 .icons-source {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
 }
 
 .git-icon {
