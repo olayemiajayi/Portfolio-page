@@ -243,10 +243,11 @@ hr {
 }
 
 .my-work {
-  font-size: 40px;
+  font-size: 60px;
   opacity: 0.5;
   position: relative;
   left: 290px;
+  font-family: "Dancing Script", cursive;
 }
 .my-project {
   position: relative;
@@ -259,9 +260,12 @@ hr {
   font-size: 30px;
 }
 .application-p {
+  width: 80%;
+}
+.application-p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
+  column-gap: 15px;
   margin: 30px;
   padding: 20px;
   margin-left: 100px;
@@ -276,6 +280,30 @@ hr {
   transition: all 150ms ease-in-out;
 }
 .application-p a:hover {
+  transform: scale(1.5);
+  opacity: 0.8;
+}
+.responsive-page {
+  width: 50%;
+}
+.responsive-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 100px;
+}
+.responsive-page a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  padding: 20px;
+  background-color: #1a2639;
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
+}
+.responsive-page a:hover {
   transform: scale(1.5);
   opacity: 0.8;
 }
@@ -449,7 +477,8 @@ hr {
 }
 .services {
   opacity: 0.5;
-  font-size: 30px;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
 }
 .web {
   position: relative;
@@ -523,6 +552,13 @@ hr {
     right: 50px;
   }
   .application-p a {
+    position: relative;
+    right: 50px;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--orange-color);
+  }
+  .responsive-page a {
     position: relative;
     right: 50px;
     font-size: 12px;
