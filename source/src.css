@@ -48,6 +48,9 @@ h1 {
 .info {
   background-color: var(--deep-color);
   background-image: url("https://www.elite-corner.com/wp-content/uploads/2022/06/Squiggly-Pattern.gif");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 p {
@@ -219,6 +222,7 @@ hr {
   position: relative;
   bottom: 40px;
   color: #1a2639;
+  background-color: #bae5d5;
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
   animation: blicking 3s linear infinite;
@@ -236,7 +240,7 @@ hr {
 }
 .react a:hover {
   cursor: pointer;
-  background-color: var(--orange-color);
+  background-color: #fdffab;
 }
 .responsive a {
   text-decoration: none;
@@ -247,6 +251,7 @@ hr {
   bottom: 38px;
   padding: 8px;
   color: #1a2639;
+  background-color: #bae5d5;
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
   animation: blinking 3s linear infinite;
@@ -264,7 +269,7 @@ hr {
 }
 .responsive a:hover {
   cursor: pointer;
-  background-color: var(--orange-color);
+  background-color: #fdffab;
 }
 
 .my-work {
