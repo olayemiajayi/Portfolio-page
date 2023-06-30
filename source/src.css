@@ -13,10 +13,32 @@ h1 {
   margin: 30px;
   padding: 70px;
 }
+.project-body {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 5px;
+}
 
+.card {
+  width: 300px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.5);
+  opacity: 0.5;
+  cursor: pointer;
+}
 .nav-link a {
   position: relative;
   right: 40px;
+}
+.image-end img {
+  width: 60%;
+  margin: 20px;
+  margin-left: 200px;
+  border-radius: 8px;
 }
 .name {
   font-size: 14vw;
@@ -55,7 +77,9 @@ h3 {
 .react-app {
   position: relative;
   bottom: 20px;
+  font-size: 13px;
 }
+
 .front {
   font-size: 40px;
   font-weight: normal;
@@ -71,7 +95,8 @@ h3 {
   transition: all 150ms ease-in-out;
 }
 .image:hover {
-  transform: scale(1.5) rotate(720deg);
+  transform: scale(1.5) rotate(360deg);
+  opacity: 0.4;
 }
 
 .mail {
@@ -243,7 +268,7 @@ hr {
 }
 
 .my-work {
-  font-size: 60px;
+  font-size: 100px;
   opacity: 0.5;
   position: relative;
   left: 290px;
@@ -252,7 +277,7 @@ hr {
 .my-project {
   position: relative;
   bottom: -2px;
-  left: 166px;
+  left: 150px;
   font-style: italic;
   font-family: "Allura", cursive;
 }
@@ -477,7 +502,7 @@ hr {
 }
 .services {
   opacity: 0.5;
-  font-size: 60px;
+  font-size: 80px;
   font-family: "Dancing Script", cursive;
 }
 .web {
@@ -520,13 +545,13 @@ hr {
     padding: 0;
     position: relative;
     right: -140px;
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
   }
   .skills {
     padding: 0;
     position: relative;
-    left: 100px;
+    left: 130px;
   }
   .icons-source img {
     max-width: 40%;
@@ -564,5 +589,10 @@ hr {
     font-size: 12px;
     font-style: italic;
     color: var(--orange-color);
+  }
+  .image-end img {
+    position: relative;
+    max-width: 100%;
+    right: 100px;
   }
 }
