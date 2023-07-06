@@ -14,7 +14,7 @@ h1 {
   padding: 70px;
 }
 .project-body {
-  margin: 30px;
+  margin: 70px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   column-gap: 5px;
@@ -27,7 +27,7 @@ h1 {
 
 .card:hover {
   transform: scale(1.5);
-  opacity: 0.5;
+  opacity: 0.6;
   cursor: pointer;
 }
 .nav-link a {
@@ -386,7 +386,11 @@ hr {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
 }
-
+.icons-source p {
+  font-size: 16px;
+  opacity: 0.8;
+  font-family: "Birthstone", cursive;
+}
 .git-icon {
   border: 1px solid #2c786c;
   border-radius: 20px;
